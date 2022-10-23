@@ -1,0 +1,9 @@
+.row{
+    display:flex;
+}
+.product__starbox{
+    display:flex;
+}
+.product__price__buyholder{
+    display: flex;
+}
