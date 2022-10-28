@@ -1,9 +1,37 @@
 .row{
-    display:flex;
+
+}
+.row__box{
+    display: flex;
+    width: 280px;
 }
 .product__starbox{
-    display:flex;
+    display: inline-block;
+    border: 1px #e3e3e3 solid;
+    background: #f7f7f7;
 }
 .product__price__buyholder{
-    display: flex;
+    display: block;
 }
+.price--redused{
+    display: block;
+    font-size: 12px;
+    color: #5F5F5F;
+    text-decoration: line-through;
+    text-align: right;
+    height: 17px;
+}
+.price--actual{
+    font-size: 25px;
+    color: #222222;
+    line-height: 25px;
+}
+.proproduct__buy{
+    
+    float: right;
+    padding-top: 17px;
+}
+.stock{
+    position: relative;
+    float: right;
+    
