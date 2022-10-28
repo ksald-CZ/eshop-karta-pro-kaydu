@@ -1,4 +1,5 @@
-.row{
+
+.Row{
 
 }
 .row__box{
@@ -6,7 +7,7 @@
     width: 280px;
 }
 .product{
-
+    padding: 5px;
 }
 .product__starbox{
     display: inline-block;
