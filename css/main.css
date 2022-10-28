@@ -1,13 +1,27 @@
+.html{
 
+}
 .Row{
-
+margin: -10px;
 }
 .row__box{
     display: flex;
     width: 280px;
+    flex-wrap: 1;
 }
 .product{
     padding: 5px;
+}
+.product__description > a{
+    text-decoration: none;
+    color: black;
+}
+.product__description{
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    height: 44px;
 }
 .product__starbox{
     display: inline-block;
